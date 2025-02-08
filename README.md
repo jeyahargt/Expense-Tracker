@@ -44,7 +44,7 @@ Pie chart for payment mode distribution.
 
 Metrics:
 
-Total expenses, cashback earned, daily averages, etc.
+Cashback earned across all payments.
 
 Queries and Analysis:
 
@@ -54,16 +54,32 @@ Total expenses.
 
 Monthly and category-wise breakdowns.
 
-Specific patterns (e.g., highest spending day, food expenses).
+Specific patterns:
+
+"Total Amount Spent in Each Category",
+"Total Amount Spent Using Each Payment Mode",
+"Total Cashback Received Across All Transactions",
+"Top 5 Most Expensive Categories",
+"Amount Spent on Transportation Using Different Payment Modes",
+"Transactions Resulted in Cashback",
+"Total Spending in Each Month of the Year",
+"Month Having Highest Spending in Transportation & Entertainment",
+"Recurring Expenses in Specific Months",
+"Cashback Earned in Each Month",
+"Overall Spending Changed Over Time",
+"Typical Costs Associated with Types of Travel",
+"Patterns in Grocery Spending",
+"High and Low Priority Categories",
+"Category Contributing the Highest % of the Total Spending",
 
 
 STREAMLIT APPLICATION
 
 Features:
 
-A sidebar with query options for users to select and view different expense insights.
+A sidebar with query options for users to select and view different expense insights with Bar charts, line charts, pie charts and dataframes to access their multiple type of expenses and months in the year.
 
-Dynamic visualizations and tables for presenting results.
+( i.e,..Dynamic visualizations and tables for presenting results.)
 
 UI Components:
 
@@ -93,65 +109,12 @@ Solution: Use of aggregate functions and indexing.
 
 Streamlit Visualization:
 
-Problem: Dynamic UI updates based on user query selection.
+Simple and useful insights provided to get a meaningful knowledge of their expenses with a better user experience.
 
-Solution: Modularized query execution and state management in Streamlit.
+Conclusion :
+This will provide the better realistic problem statement understanding and vision of the expense tracker or analyzing personal expenses for a family or a particular person.
+This will conclude providing all SQL scripts for all 20 queries.
+Documentation explaining the methodology, analysis, and insights.
+Screenshots of the Streamlit app with key visualizations and outputs.
 
-Insights of the Project
-1. Spending Patterns
-Monthly Spending Trends: Users can track their spending trends over the months, observing peaks and troughs in their expenses. For instance, higher expenses may occur during festive seasons or vacations.
-Category-Wise Spending: Breakdown of expenses by categories (e.g., Rent, Groceries, Shopping) helps identify areas where users spend the most.
 
-2. Daily and Monthly Analysis
-Daily Average Expense: Insights into average daily spending help users monitor their daily financial habits and identify unusually high spending days.
-Highest Spending Day in a Month: Identifying the day with the highest spending can help users understand specific events or purchases that impacted their budget.
-
-3. Cashback Earned
-Cashback Insights: Summarizing total cashback earned encourages users to adopt cashback-friendly payment methods or categories.
-
-4. Payment Mode Preferences
-Analyzing the frequency of payment methods (e.g., Credit Card, Debit Card, Cash) helps users understand their payment habits and manage them better for rewards or debt control.
-
-5. Category-Specific Insights
-Food Expenses: Monitoring food expenses separately allows users to control dining and grocery budgets.
-Shopping and Entertainment: Monthly breakdown of expenses in unrestricted categories like shopping and entertainment helps users strike a balance between essentials and luxuries.
-
-6. Financial Health Overview
-Total Expenses: Displaying total expenses provides an overview of overall financial activity.
-Monthly Breakdown: Insights into monthly expenses by category and payment mode highlight potential areas for cost optimization.
-
-7. Data-Driven Decision Making
-By visualizing trends and patterns, users can make informed decisions, such as:
-Reducing unrestricted spending.
-Setting realistic monthly budgets.
-Prioritizing spending on essential categories.
-
-FUTURE ENHANCEMENTS
-
-Enhanced Data Input:
-
-Enable users to upload their expense data via CSV or Excel files.
-
-Real-Time Analytics:
-
-Incorporate APIs for real-time updates and external data integration.
-
-Budgeting and Forecasting:
-
-Add features to set monthly budgets and predict future expenses based on trends.
-
-User Authentication:
-
-Implement secure login and user-specific dashboards.
-
-Advanced Visualizations:
-
-Add more sophisticated visualizations using Plotly or Altair for deeper insights.
-
-Mobile Application:
-
-Develop a mobile-friendly version for better accessibility.
-
-Conclusion
-
-The Expense Tracker project serves as an excellent tool for understanding personal financial behavior. By leveraging modern technologies and methodologies, it offers insightful analysis and visualization, paving the way for smarter financial decisions. With future enhancements, the system can evolve into a full-fledged financial management application.
